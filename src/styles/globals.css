@@ -1,0 +1,25 @@
+:root{
+    --color-primary: #24C28C;
+
+    --color-fixed-white: #F5F5F5;
+    --color-grey-900: #F5F5F5;
+    --color-grey-800: #AFAFAF;
+    --color-grey-600: #878787;
+    --color-grey-400:#5F5F5F;
+    --color-grey-200:#373737;
+    --color-grey-100:#0F0F0F;
+    --color-fixed-black:#0F0F0F;
+
+    --gap-default: 16px;
+    --radius-default: 6px;
+    --padding-default: 16px;
+
+    --font-size-0: 1.75rem; /* 28px */
+    --font-size-1: 1.375rem; /* 22px */
+    --font-size-2: 1.125rem; /* 18px */
+    --font-size-3: 1rem; /* 16px */
+
+    --font-weight-0: 700;
+    --font-weight-1: 600;
+    --font-weight-2: 400;
+}
