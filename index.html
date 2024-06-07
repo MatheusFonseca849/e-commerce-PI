@@ -5,22 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/styles/globals.css">
     <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/style.css">
+    <script src="https://kit.fontawesome.com/e438570a4b.js" crossorigin="anonymous"></script>
     <title>NerdStop</title>
 </head>
-<body>
+<body id="body">
     <header>
-        <img src="" alt="">
-        <nav></nav>
-        <form>
-            <input type="text">
-            <button>Pesquisar</button>
-        </form>
+        <div class="imgContainer">
+            <img src="./src/images/logo.png" alt="">
+            <h1>Nerd <span>T</span>ech</h1>
+        </div>
+        <div class="headerBtnContainer">
+            <button>Wishlist</button>
+            <button>Carrinho</button>
+            <button>Dark Mode</button>
+        </div>
     </header>
     <main>
-        <section>
-
+        <div class="navigation">
+            <form>
+                <input type="text">
+                <button><i class="fa-solid fa-magnifying-glass fa-xl"></i></button>
+            </form>
+            <nav>
+                <button>Todos</button>
+                <button>Consoles</button>
+                <button>Acessórios</button>
+                <button>Jogos</button>
+            </nav>
+        </div>
+        <section class="shoppingWindow">
+            <h2>Vitrine</h2>
+            <ul id="productList">
+                
+            </ul>
+        </section>
+        <section class="shoppingCartSection">
+            <h2>Carrinho</h2>
+            <ul class="shoppingCartList" id="shoppingCart">
+                <li class="purchasedProduct">
+                    <div class="purchasedImgContainer">
+                        <img src="" alt="">
+                    </div>
+                    <div class="purchasedProductInfo">
+                        <h3>Nome do Produto</h3>
+                        <span>Preço do Produto</span>
+                    </div>
+                    <div class="putchasedProductCounter">
+                        <div class="counterBtnContainer">
+                            <button>+</button>
+                            <button>-</button>
+                        </div>
+                        <span>1</span>
+                    </div>
+                </li>
+            </ul>
+            <div class="purchaseInfo">
+                <span>Total de Itens</span>
+                <span>Preço Total</span>
+            </div>
         </section>
     </main>
-    <script src="./src/scripts/index.js"></script>
+    <script type="module" src="./src/scripts/database.js"></script>
+    <script type="module" src="./src/scripts/cards.js"></script>
+    <script type="module" src="./src/scripts/index.js"></script>
 </body>
 </html>

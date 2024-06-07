@@ -1,0 +1,32 @@
+header{
+    background-color: aqua;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    padding: 22px 16px;
+}
+
+header .imgContainer{
+    display: flex;
+    align-items: center;
+    gap: var(--gap-default);
+}
+
+header .imgContainer img{
+    width: 54px;
+    height: 54px;
+}
+
+header .imgContainer h1{
+    font-size: var(--font-size-1);
+}
+
+header .imgContainer h1 span{
+    color: var(--color-red);
+}
+
+.cardImgContainer img {
+    width: 94px;
+    height: 120px;
+}
+

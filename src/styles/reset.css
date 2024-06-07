@@ -12,6 +12,15 @@ html,body,header,main,nav,div,ul,li,img,button,figure,h1,h2,h3,a,p{
     font-family: 'Inter', sans-serif;
 }
 
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    margin: 0 28px;
+}
+
 button{
     cursor: pointer;
 }
