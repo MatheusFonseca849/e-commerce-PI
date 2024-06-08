@@ -9,16 +9,42 @@ html,body,header,main,nav,div,ul,li,img,button,figure,h1,h2,h3,a,p{
     outline: 0;
     border: none;
     text-align: unset;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
     width: 100vw;
     height: 100vh;
+    background-color: var(--color-background);
 }
 
 main{
     margin: 0 28px;
+    background-color: var(--color-fixed-white);
+    margin-top: var(--margin-top-main);
+}
+
+.btnDefault{
+    width: var(--btn-dimensions-default);
+    height: var(--btn-dimensions-default);
+    border-radius: var(--radius-default);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-btn-background);
+    color: var(--color-grey-100);
+    transition: background-color, 0.5s, linear;
+    transition: color, 0.5s;
+    padding: 4px;
+}
+
+.btnDefault:hover{
+    background-color: #2F4858;
+    color: var(--color-grey-900);
+}
+
+.btnDefault i {
+    font-size: var(--icon-size-small);
 }
 
 button{
