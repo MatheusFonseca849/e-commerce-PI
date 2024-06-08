@@ -1,9 +1,11 @@
 :root{
-    --color-primary: #24C28C;
-    --color-red: #E61818;
 
-    --color-fixed-white: #F5F5F5;
-    --color-grey-900: #F5F5F5;
+    --color-primary: #E61818;
+    --color-secondary: #24C28C;
+    --color-btn-background: #B3DD7E;
+    --color-background: #DFF8D5;
+    --color-fixed-white: #FCFCFC;
+    --color-grey-900: #FCFCFC;
     --color-grey-800: #AFAFAF;
     --color-grey-600: #878787;
     --color-grey-400:#5F5F5F;
@@ -11,16 +13,33 @@
     --color-grey-100:#0F0F0F;
     --color-fixed-black:#0F0F0F;
 
+    --header-img-dimensions: 54px;
+    --btn-dimensions-default: 2rem;
+    --card-img-width: 150px;
+    --card-img-height: 200px;
+
     --gap-default: 16px;
+    --gap-small: 8px;
+    --gap-small-1: 4px;
     --radius-default: 6px;
-    --padding-default: 16px;
+    --radius-input: 4px;
+    --padding-default: 1rem; /* 16px */
+    --padding-card: 1rem;
+    --padding-header: 22px 28px;
+    --padding-img-container: 0.5rem;
+    --margin-top-main: 104px;
 
     --font-size-0: 1.75rem; /* 28px */
     --font-size-1: 1.375rem; /* 22px */
     --font-size-2: 1.125rem; /* 18px */
     --font-size-3: 1rem; /* 16px */
+    --font-size-4: 0.875rem; /* 14px */
 
     --font-weight-0: 700;
     --font-weight-1: 600;
-    --font-weight-2: 400;
+    --font-weight-2: 500;
+    --font-weight-3: 400;
+
+    --icon-size-default: 1.5rem; /* 24px */
+    --icon-size-small: 1rem; /* 16px */
 }
