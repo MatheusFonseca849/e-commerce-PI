@@ -21,15 +21,6 @@ export function showAllProducts(){
     })
 }
 
-export function showShoppingCart(){
-    let shoppingCart = document.getElementById("shoppingCart")
-    shoppingCart.innerHTML = ""
 
-    shoppingCartArray.forEach((product) => {
-        appendPurchasedCard(product, shoppingCart)
-    })
-}
 
 showAllProducts()
-
-showShoppingCart()

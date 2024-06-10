@@ -6,7 +6,6 @@ export let productDatabase = [
         category: "games",
         imgPath: "./src/images/games/bioshock_2_ps3.jpg",
         price: 90.00,
-        purchased: false
     },
     {
         id: 2,
@@ -15,7 +14,6 @@ export let productDatabase = [
         category: "games",
         imgPath: "./src/images/games/cyberpunk_xone.jpg",
         price: 90.00,
-        purchased: false
     },
     {
         id: 3,
@@ -24,7 +22,6 @@ export let productDatabase = [
         category: "games",
         imgPath: "./src/images/games/dark_souls_ps3.jpeg",
         price: 90.00,
-        purchased: false
     },
     {
         id: 4,
@@ -33,7 +30,6 @@ export let productDatabase = [
         category: "games",
         imgPath: "./src/images/games/doom_4_ps4.jpg",
         price: 90.00,
-        purchased: false
     },
     {
         id: 5,
@@ -42,7 +38,6 @@ export let productDatabase = [
         category: "games",
         imgPath: "./src/images/games/gow_ps2.jpg",
         price: 90.00,
-        purchased: false
     },
     {
         id: 6,
@@ -51,7 +46,6 @@ export let productDatabase = [
         category: "games",
         imgPath: "./src/images/games/gtav_ps3.png",
         price: 90.00,
-        purchased: false
     },
     {
         id:7,
@@ -60,7 +54,6 @@ export let productDatabase = [
         category: "games",
         imgPath: "./src/images/games/horizon_zero_dawn_ps4.jpeg",
         price: 90.00,
-        purchased: false
     },
     {
         id: 8,
@@ -69,7 +62,6 @@ export let productDatabase = [
         category: "games",
         imgPath: "./src/images/games/tomb_raider_ps3.jpg",
         price: 90.00,
-        purchased: false
     },
     {
         id: 9,
@@ -78,7 +70,6 @@ export let productDatabase = [
         category: "consoles",
         imgPath: "./src/images/consoles/playstation3_1controle.jpg",
         price: 90.00,
-        purchased: false
     },
     {
         id: 10,
@@ -87,7 +78,6 @@ export let productDatabase = [
         category: "consoles",
         imgPath: "./src/images/consoles/playstation3_2controles.jpg",
         price: 90.00,
-        purchased: false
     },
     {
         id: 11,
@@ -96,7 +86,6 @@ export let productDatabase = [
         category: "consoles",
         imgPath: "./src/images/consoles/playstation4_1controle.jpeg",
         price: 90.00,
-        purchased: false
     },
     {
         id: 12,
@@ -105,7 +94,6 @@ export let productDatabase = [
         category: "consoles",
         imgPath: "./src/images/consoles/playstation4_2controles.jpg",
         price: 90.00,
-        purchased: false
     },
     {
         id: 13,
@@ -114,7 +102,6 @@ export let productDatabase = [
         category: "consoles",
         imgPath: "./src/images/consoles/playstation5_1controle.jpg",
         price: 90.00,
-        purchased: false
     },
     {
         id: 14,
@@ -123,7 +110,6 @@ export let productDatabase = [
         category: "consoles",
         imgPath: "./src/images/consoles/playstation5_2controles.jpeg",
         price: 90.00,
-        purchased: false
     },
     {
         id: 15,
@@ -132,7 +118,6 @@ export let productDatabase = [
         category: "consoles",
         imgPath: "./src/images/consoles/xbox360_1controle.jpg",
         price: 90.00,
-        purchased: false
     },
     {
         id: 16,
@@ -141,7 +126,6 @@ export let productDatabase = [
         category: "consoles",
         imgPath: "./src/images/consoles/xbox360_2controles.jpeg",
         price: 90.00,
-        purchased: false
     },
     {
         id: 17,
@@ -150,7 +134,6 @@ export let productDatabase = [
         category: "consoles",
         imgPath: "./src/images/consoles/xboxone_1controle.jpg",
         price: 90.00,
-        purchased: false
     },
     {
         id: 18,
@@ -159,7 +142,6 @@ export let productDatabase = [
         category: "accessories",
         imgPath: "./src/images/accessories/headset.jpg",
         price: 90.00,
-        purchased: false
     },
     {
         id: 19,
@@ -168,7 +150,6 @@ export let productDatabase = [
         category: "accessories",
         imgPath: "./src/images/accessories/ps4_controller_charger.jpg",
         price: 90.00,
-        purchased: false
     },
 ]
 
@@ -180,7 +161,7 @@ export let shoppingCartArray = [
         category: "games",
         imgPath: "./src/images/games/bioshock_2_ps3.jpg",
         price: 90.00,
-        purchased: false
+        quantity: 1
     },
     {
         id: 2,
@@ -189,6 +170,6 @@ export let shoppingCartArray = [
         category: "games",
         imgPath: "./src/images/games/cyberpunk_xone.jpg",
         price: 90.00,
-        purchased: false
+        quantity: 1
     }
 ]
