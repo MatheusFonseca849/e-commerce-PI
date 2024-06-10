@@ -165,7 +165,7 @@ export let productDatabase = [
         id: 19,
         name: "Docker Carregador para PS4",
         manufacturer: "ACME",
-        category: "accessiories",
+        category: "accessories",
         imgPath: "./src/images/accessories/ps4_controller_charger.jpg",
         price: 90.00,
         purchased: false

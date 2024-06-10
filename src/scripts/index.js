@@ -1,17 +1,17 @@
 import { productDatabase, shoppingCartArray } from "./database.js";
 import { createCard, createPurchasedCard } from "./cards.js";
 
-function appendCard(object, htmlReference){
+export function appendCard(object, htmlReference){
     let card = createCard(object)
     htmlReference.append(card)
 }
 
-function appendPurchasedCard(object, htmlReference){
+export function appendPurchasedCard(object, htmlReference){
     let card = createPurchasedCard(object)
     htmlReference.append(card)
 }
 
-function showAllProducts(){
+export function showAllProducts(){
 
     let shoppingWindow = document.getElementById("productList")
     shoppingWindow.innerHTML = ""
@@ -21,7 +21,7 @@ function showAllProducts(){
     })
 }
 
-function showShoppingCart(){
+export function showShoppingCart(){
     let shoppingCart = document.getElementById("shoppingCart")
     shoppingCart.innerHTML = ""
 
