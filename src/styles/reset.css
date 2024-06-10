@@ -18,11 +18,7 @@ body{
     background-color: var(--color-background);
 }
 
-main{
-    margin: 0 28px;
-    background-color: var(--color-fixed-white);
-    margin-top: var(--margin-top-main);
-}
+
 
 .btnDefault{
     width: var(--btn-dimensions-default);

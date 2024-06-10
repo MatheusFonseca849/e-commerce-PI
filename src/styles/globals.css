@@ -43,3 +43,9 @@
     --icon-size-default: 1.5rem; /* 24px */
     --icon-size-small: 1rem; /* 16px */
 }
+
+.darkMode{
+    --color-grey-900: #373737;
+    --color-grey-100: #FCFCFC;
+    --color-background: #24C28C;
+}
