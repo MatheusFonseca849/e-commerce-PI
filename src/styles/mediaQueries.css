@@ -1,0 +1,20 @@
+@media(min-width: 640px){
+
+    #productList, #shoppingCart{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        height: fit-content;
+    }
+
+}
+
+@media(min-width: 864px){
+
+    #mainContainer{
+        display: flex;
+        gap: 12px;
+    }
+
+}
