@@ -10,11 +10,15 @@
 
 }
 
-@media(min-width: 864px){
+@media(min-width: 1024px){
 
     #mainContainer{
         display: flex;
         gap: 12px;
+    }
+
+    .shoppingWindow{
+        max-width: 70%;
     }
 
 }
