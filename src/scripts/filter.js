@@ -12,7 +12,7 @@ const filterByCategory = (category) => {
 }
 
 let navBtns = document.querySelectorAll(".navBtn")
-console.log(navBtns)
+
 navBtns.forEach(navBtn => {
     if(navBtn.id === "all"){
         navBtn.addEventListener("click", () => {

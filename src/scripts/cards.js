@@ -1,3 +1,5 @@
+import { addItem } from "./shoppingCart.js";
+
 export function createCard(object) {
   let li = document.createElement("li");
   li.classList = "productCard";
@@ -41,6 +43,9 @@ export function createCard(object) {
   addToCartBtn.classList = "btnDefault";
   addToCartBtn.title = "Adicionar ao Carrinho";
   addToCartBtn.innerHTML = "<i class='fa-solid fa-cart-plus'>";
+  addToCartBtn.addEventListener("click", () => {
+    addItem(object.id)
+  })
 
   let moreInfoBtn = document.createElement("button");
   moreInfoBtn.classList = "btnDefault";
@@ -96,6 +101,9 @@ export function createPurchasedCard(object) {
   let counterPlusBtn = document.createElement("button");
   counterPlusBtn.classList = "btnDefault counterBtn"
   counterPlusBtn.innerHTML = "+";
+  counterPlusBtn.addEventListener("click", () => {
+    addItem(object.id)
+  })
 
   let counterMinusBtn = document.createElement("button");
   counterMinusBtn.classList = "btnDefault counterBtn"
