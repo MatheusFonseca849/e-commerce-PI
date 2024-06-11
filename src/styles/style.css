@@ -73,6 +73,8 @@ header .btnContainer button i {
 .navigation nav {
     display: flex;
     gap: var(--gap-small);
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .navBtn {
